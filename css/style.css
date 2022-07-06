@@ -1,0 +1,17 @@
+#movies img,
+#movie img {
+	max-width: 250px;
+}
+#movies {
+	padding-top: 24px;
+}
+
+@media (min-width: 960px) {
+	#movies .col-md-3 .well {
+		height: 390px;
+	}
+
+	#movies .col-md-3 img {
+		max-height: 240px;
+	}
+}
